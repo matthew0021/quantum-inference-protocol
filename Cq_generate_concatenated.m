@@ -35,29 +35,6 @@ function output = Cq_generate_concatenated(varargin)
 % 
 % -------------------------------------------------------------------------
 
-% Log:
-% Updated by Matthew Ho on 2018-02-18 at 22:40
-% Updated by Matthew Ho on 2018-04-25 at 15:11
-%   (Added topological complexity)
-% Modified by Matthew Ho on 2018-06-21 at 00:30
-%   (Replace bi2de with bin2dec, universal across all MATLAB versions)
-% Modified by Matthew Ho on 2018-06-21 at 00:51 
-%   (Only output Cq_concatenated
-% Modified by Matthew Ho on 2018-06-21 at 01:05
-%   (Removed genallpastfuturecombs. Put the function into script to save
-%   hassle of adding 1 extra .m file to run.)
-% Modified by Matthew Ho on 2019-01-07 at 16:51
-%   (Edited description)
-%   (Cleaned up commented areas of the code)
-% Modified by Matthew Ho on 2020-03-02 at 14:13
-%   (Included single time-step conditional probabilities as one of the
-%   outputs)
-% Modified by Matthew Ho on 2020-04-24 at 23:42
-%   Added error check for number of arguments inputted. Same as
-%   Unitary_generation.
-%
-% -------------------------------------------------------------------------
-
 
 
 if nargin == 1
