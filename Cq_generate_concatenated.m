@@ -24,15 +24,16 @@ function output = Cq_generate_concatenated(varargin)
 %         bits = bitstream (binary, for this function)
 %
 % Outputs:
-% output{1,2} = Cq_concatenated;
-% output{2,2} = sqrt_condFuture_probs;
-% output{3,2} = stateProbVec;
-% output{4,2} = condCounts;
-% output{5,2} = stateProbCount;
-% output{6,2} = rho;
-% output{7,2} = topological_complexity;
-% output{8,2} = sqrt(condProb);
-% 
+% output{1,2} = Quantum statistical memory (Cq_concatenated)
+% output{2,2} = Probability amplitudes of 2^L futures of each 2^L quantum memory state, after concatenation
+% output{3,2} = Probabilities of each of the 2^L quantum memory states for single futures
+% output{4,2} = Counts for single futures of the 2^L quantum memory states -- used to compute {2,2}
+% output{5,2} = Counts for each of the 2^L quantum memory states for single futures -- used to compute {3,2}
+% output{6,2} = Density matrix computed using {2,2} and {3,2}
+% output{7,2} = Topological complexity given by log2(number of states)
+% output{8,2} = Probabilities of 2^L futures of each 2^L quantum memory state, after concatenation, {2,2} = sqrt({8,2})
+% output{9,2} = Probability amplitudes of 2^L futures of each 2^L quantum memory state, WITHOUT concatenation
+# output{10,2} = Probabilities of 2^L futures of each 2^L quantum memory state, WITHOUT concatenation, {9,2} = sqrt({10,2})
 % -------------------------------------------------------------------------
 
 
