@@ -13,6 +13,11 @@ function output = Cq_generate_concatenated(varargin)
 % Complexity Institute, NTU, Singapore, under the supervision
 % of Dr. Thomas Elliott and Asst. Prof. Mile Gu.
 %
+% The results are published at: 
+% M Ho, M Gu, TJ Elliott, Robust inference of memory structure for
+% efficient quantum modelling of stochastic processes,
+% Physical Review A 101 (3), 032327 (2020).
+%
 % -------------------------------------------------------------------------
 % Code description:
 % 
