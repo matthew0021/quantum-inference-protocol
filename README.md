@@ -18,6 +18,7 @@ It was shown in Ref. [6] that it is possible to bypass the need to construct the
 
 Cq_generate_concatenated was primarily written in MATLAB but has been translated to Python3 though it may not be optimised (yet). 
 
+The following article shall be cited should this code be used: https://doi.org/10.1103/PhysRevA.101.032327.
 
 References:
 [1] J. P. Crutchfield and K. Young, Physical Review Letters 63, 105 (1989).
